@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:net_app/home_screen.dart';
+import 'package:net_app/home_screen_2.dart';
 
 void main() {
   runApp(ProviderScope(child: const MyApp()));
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: HomeScreenTwo(),
     );
   }
 }
